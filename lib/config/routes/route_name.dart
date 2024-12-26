@@ -1,0 +1,33 @@
+class RouteNames {
+  static const String splashScreen = "/Splash_Screen";
+  static const String loginScreen = "/Login_Screen";
+  static const String signUpScreen = "/SignUp_Screen";
+  static const String forgotStepFirst = "/ForgotStepFirst";
+  static const String forgotStepSecond = "/ForgotStepSecond";
+  static const String forgotStepThird = "/ForgotStepThird";
+  static const String navBarScreen = "/Nav_Bar_Screen";
+  static const String memoriesScreen = "/memories_Screen";
+  static const String photosScreen = "/Photos_Screen";
+  static const String videosScreen = "/Videos_Screen";
+  static const String voicesScreen = "/Voices_Screen";
+  static const String messageScreen = "/Message_Screen";
+  static const String peopleScreen = "/People_Screen";
+  static const String peopleProfileScreen = "/People_Profile_Screen";
+  static const String settingView = "/Setting_Screen";
+  static const String addEmailView = "/Add_Email_screen";
+  static const String addCustomCategoryView = "/Add_custom_category_screen";
+  static const String viewPhotoDetailsView = "/View_photo_details_screen";
+  static const String clonedVoicesView = "/cloned_voices_view";
+  static const String addClonedVoicesView = "/add_cloned_voices_view";
+  static const String recordClonedVoiceView = "/record_cloned_voices_view";
+  static const String addMemoriesView = "/add_memories_view";
+  static const String addPhotoView = "/add_photo_view";
+  static const String addVideoView = "/add_video_view";
+  static const String addVoiceView = "/add_voice_view";
+  static const String addPeopleView = "/add_people_view";
+  static const String viewSinglePhotoView = "/view_single_photo_view";
+  static const String viewSingleVideoView = "/view_single_video_view";
+  static const String updateVideoDetailsView = "/update_video_details_view";
+  static const String viewSingleVoiceView = "/view_single_voice_view";
+  static const String updateVoiceDetailsView = "/update_voice_details_view";
+}
