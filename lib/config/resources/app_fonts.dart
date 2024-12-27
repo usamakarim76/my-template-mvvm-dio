@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_template/config/extensions/extensions.dart';
 import 'package:my_template/config/resources/colors.dart';
 
 class AppFonts {
@@ -28,55 +29,55 @@ class AppTextTheme {
     /// Bold
     titleLarge: AppFonts.bodyFont(
       color: AppColors.kPrimaryColor,
-      fontSize: 23.sp,
+      fontSize: 23.textScale,
       fontWeight: FontWeight.w800,
     ),
     titleMedium: AppFonts.bodyFont(
       color: AppColors.kPrimaryColor,
-      fontSize: 12.sp,
+      fontSize: 12.textScale,
       fontWeight: FontWeight.w800,
     ),
 
     /// Semi Bold
     titleSmall: AppFonts.bodyFont(
       color: AppColors.kPrimaryColor,
-      fontSize: 12.sp,
+      fontSize: 12.textScale,
       fontWeight: FontWeight.w700,
     ),
 
     /// Medium
     bodyLarge: AppFonts.bodyFont(
       color: AppColors.kPrimaryColor,
-      fontSize: 23.sp,
+      fontSize: 23.textScale,
       fontWeight: FontWeight.w500,
     ),
     bodyMedium: AppFonts.bodyFont(
       color: AppColors.kPrimaryColor,
-      fontSize: 20.sp,
+      fontSize: 20.textScale,
       fontWeight: FontWeight.w500,
     ),
 
     /// Regular
     bodySmall: AppFonts.bodyFont(
       color: AppColors.kPrimaryColor,
-      fontSize: 20.sp,
+      fontSize: 20.textScale,
       fontWeight: FontWeight.w300,
     ),
 
     /// Light
     labelLarge: AppFonts.bodyFont(
       color: AppColors.kPrimaryColor,
-      fontSize: 23.sp,
+      fontSize: 23.textScale,
       fontWeight: FontWeight.w100,
     ),
     labelMedium: AppFonts.bodyFont(
       color: AppColors.kPrimaryColor,
-      fontSize: 20.sp,
+      fontSize: 20.textScale,
       fontWeight: FontWeight.w100,
     ),
     labelSmall: AppFonts.bodyFont(
       color: AppColors.kPrimaryColor,
-      fontSize: 11.sp,
+      fontSize: 11.textScale,
       fontWeight: FontWeight.w100,
     ),
   );

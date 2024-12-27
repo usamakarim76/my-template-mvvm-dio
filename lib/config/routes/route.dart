@@ -7,26 +7,26 @@ class Routes {
   static Route? generateRoute(RouteSettings settings) {
     final args = settings.arguments;
     switch (settings.name) {
-      case RouteNames.splashScreen:
-        return MaterialPageRoute(
-          builder: (BuildContext context) => const SplashScreen(),
-        );
-      case RouteNames.loginScreen:
-        return MaterialPageRoute(
-          builder: (_) => BlocProvider(
-            create: (context) =>
-                LoginViewBloc(authRepository: AuthRepository()),
-            child: const LoginView(),
-          ),
-        );
-      case RouteNames.signUpScreen:
-        return MaterialPageRoute(
-          builder: (_) => BlocProvider(
-            create: (context) =>
-                SignupViewBloc(authRepository: AuthRepository()),
-            child: const SignUpView(),
-          ),
-        );
+      // case RouteNames.splashScreen:
+      //   return MaterialPageRoute(
+      //     builder: (BuildContext context) => const SplashScreen(),
+      //   );
+      // case RouteNames.loginScreen:
+      //   return MaterialPageRoute(
+      //     builder: (_) => BlocProvider(
+      //       create: (context) =>
+      //           LoginViewBloc(authRepository: AuthRepository()),
+      //       child: const LoginView(),
+      //     ),
+      //   );
+      // case RouteNames.signUpScreen:
+      //   return MaterialPageRoute(
+      //     builder: (_) => BlocProvider(
+      //       create: (context) =>
+      //           SignupViewBloc(authRepository: AuthRepository()),
+      //       child: const SignUpView(),
+      //     ),
+      //   );
 
       default:
         return MaterialPageRoute(builder: (_) {

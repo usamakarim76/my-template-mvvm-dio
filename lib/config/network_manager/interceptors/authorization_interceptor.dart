@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:memory_cloud/services/storage/secure_storage_service.dart';
 import 'package:my_template/config/resources/app_strings.dart';
+import 'package:my_template/services/storage/secure_storage_service.dart';
 
 //* Request methods PUT, POST, PATCH, DELETE, GET needs access token,
 //* which needs to be passed with "Authorization" header as Bearer token.

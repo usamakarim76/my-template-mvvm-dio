@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart' show kDebugMode;
-import 'package:my_template/config/network_manager/dio_exception.dart';
-import 'package:my_template/config/network_manager/endpoints.dart';
+import 'package:my_template/config/network_manager/dio/dio_exception.dart';
+import 'package:my_template/config/network_manager/dio/endpoints.dart';
 import 'package:my_template/config/network_manager/interceptors/authorization_interceptor.dart';
 import 'package:my_template/config/network_manager/interceptors/logger_interceptor.dart';
 

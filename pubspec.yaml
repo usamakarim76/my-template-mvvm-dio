@@ -28,10 +28,16 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  another_flushbar: ^1.12.30
+  bloc: ^8.1.4
   cupertino_icons: ^1.0.8
   dio: ^5.7.0
+  equatable: ^2.0.7
   flutter:
     sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_secure_storage: ^9.2.2
+  json_annotation: ^4.9.0
   logger: ^2.5.0
   simple_secure_storage: ^0.3.1
 
